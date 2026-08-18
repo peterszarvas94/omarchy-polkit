@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "peti.polkit",
+  "name": "FIDO Polkit Agent",
+  "version": "1.1.0",
+  "author": "Peti",
+  "description": "Polkit authentication dialog with explicit FIDO security-key feedback.",
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "PolkitAgent.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.polkit"
+  }
+}
