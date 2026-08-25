@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "peti.polkit",
+  "id": "io.github.peterszarvas94.polkit",
   "name": "FIDO Polkit Agent",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": "Peti",
   "description": "Polkit authentication dialog with explicit FIDO security-key feedback.",
   "kinds": [

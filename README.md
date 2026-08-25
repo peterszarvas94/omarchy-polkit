@@ -19,9 +19,9 @@ whole plugin directory. Do not symlink individual files.
 
 ```bash
 mkdir -p ~/.config/omarchy/plugins
-ln -sfn ~/Projects/omarchy-polkit ~/.config/omarchy/plugins/peti.polkit
+ln -sfn ~/Projects/omarchy-polkit ~/.config/omarchy/plugins/io.github.peterszarvas94.polkit
 OMARCHY_PATH=/usr/share/omarchy omarchy plugin validate ~/Projects/omarchy-polkit
-OMARCHY_PATH=/usr/share/omarchy omarchy plugin enable peti.polkit
+OMARCHY_PATH=/usr/share/omarchy omarchy plugin enable io.github.peterszarvas94.polkit
 omarchy-shell shell rescanPlugins
 OMARCHY_PATH=/usr/share/omarchy omarchy restart shell
 ```
